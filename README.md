@@ -31,6 +31,7 @@ class HelloNear {
 <br />
 
 ## 1. Build and Deploy the Contract
+
 You can automatically compile and deploy the contract in the NEAR testnet by running:
 
 ```bash
@@ -61,6 +62,7 @@ near view <dev-account> get_greeting
 <br />
 
 ## 3. Store a New Greeting
+
 `set_greeting` changes the contract's state, for which it is a `call` method.
 
 `Call` methods can only be invoked using a NEAR account, since the account needs to pay GAS for the transaction.
